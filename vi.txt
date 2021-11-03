@@ -1,0 +1,15 @@
+VI COMMANDS
+
+Explanation of editing and writing mode
+
+Navigation within a file
+-----------------------------------
+
+
+Modifying file in editing mode
+-----------------------------------
+
+
+
+
+

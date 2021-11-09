@@ -1,5 +1,8 @@
 ######################################################################
-# main authors: Andres Moreno Carrascosa,                            #
+<<<<<<< HEAD          #
+=======
+# main authors: Mats Simmermacher, Andres Moreno Carrascosa                                    #
+>>>>>>> 74e97ccbe91211c2a2ae0a380afefe0211f73e1d
 ######################################################################
 
 

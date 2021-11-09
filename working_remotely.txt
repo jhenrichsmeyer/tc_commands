@@ -1,6 +1,6 @@
 WORKING REMOTELY
 ######################################################################
-# main authors:                                                      #
+# main authors: Kyle Acheson                                         #             
 ######################################################################
 
 Prerequisites Tübingen
@@ -12,7 +12,28 @@ Prerequisites Tübingen
 Prerequisites Edinburgh
 --------------------------------
 
+- Active University ID number to register for VPN with
+- VPN client 
+- An account on the HPC of your choice if using a server
+- If connecting to a remote lab computer - X11 forwarding on your account
+- A working SSH client on your lab computer
+- Know the IP address of your remote computer
+- Perhaps a file manager for transfering files easily between remote and local
+
+
 
 
 Commands
 --------------------------------
+
+<x.x.x.x> refers to the univeristy network address
+
+ssh <username>@<remote address>.<x.x.x.x>
+ssh -X <username>@<remote address>.<x.x.x.x> (for X11 forwarding)
+sftp <username>@<remote address>.<x.x.x.x> (command line file transfer client)
+scp <username>@<remote address>.<x.x.x.x>:/path/to/files/file.txt . (copy files using scp)
+scp -r <username>@remote address>.<x.x.x.x>:/path/to/dir (recursivley copy files/ directories)
+
+rsync recommended for bigger file transfers - has options to compress, restart transfer if connection broken etc.
+rsync [-options] /path/to/source/ <username>@<remote address>.<x.x.x.x>:/path/to/destination (push/pull files using rsync)
+

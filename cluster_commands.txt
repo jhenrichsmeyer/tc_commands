@@ -1,5 +1,6 @@
 ######################################################################
-# main authors:                                                      #
+# main authors: Mats Simmermacher, Andres Moreno Carrascosa          #
+# and Stefan Behnle                                                  # 
 ######################################################################
 
 

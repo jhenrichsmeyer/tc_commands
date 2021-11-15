@@ -5,6 +5,12 @@ WORKING REMOTELY
 
 Prerequisites Tübingen
 --------------------------------
+it is a good idea to use "ssh" e.g.
+
+ssh obelix@baltic.uni-tuebingen.de
+
+will log in to the account named obelix on the node baltic 
+which is in the domain uni-tuebingen in Germany (de).
 
 
 

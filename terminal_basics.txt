@@ -1,11 +1,11 @@
 BASIC TERMINAL COMMANDS
 ######################################################################
-# main authors:                                                      #
+# main authors: Esra, Johannes                                       #
 ######################################################################
 
 Navigation
 -------------------------------------------
-
+cd SubDirecotry			Changes the current directory to the directory SubDirectory
 
 
 

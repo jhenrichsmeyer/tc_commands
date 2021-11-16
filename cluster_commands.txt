@@ -26,6 +26,10 @@ this also displays the IDs of the jobs
 qdel <job ID>,
 where the job ID can be found via qstat
 
+- a submission script should start as follows:
+#!/bin/sh
+#$ -N <job name>
+
 ============================================================================
 =               BASIC CONSIDERATIONS WHEN YOU FIRST ENTER A CLUSTER      =     
 ============================================================================

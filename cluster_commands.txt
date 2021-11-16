@@ -3,7 +3,9 @@
 # and Stefan Behnle                                                  # 
 ######################################################################
 
+----------------------------------------------------------------------
 Commands for Computing on EDDIE
+----------------------------------------------------------------------
 
 - jobs can be submitted with
 qsub <script.sh>,
@@ -35,6 +37,16 @@ is understandable for both people in Tübingen and Edinburgh.
 -In case some information is not in your university webpage, general instructions can be found in the webpages related to your specific queue system
 -If el barrilero is on your group, be careful, he is muuuuuuy estupido
 
+=======
+----------------------------------------------------------------------
+General Remarks from Don Moreno
+----------------------------------------------------------------------
+
+Before running jobs in any cluster, please bear in mind LOGIN NODES are not RUNNING NODES
+Also be careful with the memory assignated to each job, an useful practice would be to read the cluster documentation before hand
+In case some information is missed in your university webpage, general instructions can be found in the webpages related to your specific queue system
+If el barrilero is on your group, be careful, he is muuuuuuy estupido
+MUCHAS!!!
 
 ==============================================================================
 ==                    THE  S L U R M  QUEUEING SYSTEM                       ==

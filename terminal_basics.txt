@@ -5,9 +5,11 @@ BASIC TERMINAL COMMANDS
 
 Navigation
 -------------------------------------------
-cd SubDirecotry			Changes the current directory to the directory SubDirectory
+1.) cd pasta
+Changes the current directory to the subdirectory "pasta"
 
-
+2.) cd ../
+changes the current directory to the parent directory (Level up)
 
 
 
@@ -15,6 +17,32 @@ cd SubDirecotry			Changes the current directory to the directory SubDirectory
 
 Creating folders, moving files, etc.
 -------------------------------------------
+1.) mkdir cookbook
+creates the directory cookbook
+
+1a) for i in {25..45..1};do echo $i; mkdir $i; done
+creates the subdirectories 25, 26, 27, ..., 45
+
+2.) touch icecream.xyz
+creates the file icecream.xyz in the current directory
+
+3.) cp icecream.xyz ../favorites/icecream.xyz
+copies the file icecream.xyz to the directory favorites, which is in the parent directory
+
+4.) mv icecream.xyz ../favorites/icecream.xyz
+moves the file icecream.xyz to the directory favorites, which is in the parent directory
+
+5.) sed -n '8,104983 p' allrecipies > the_best
+copies lines 8 - 104983 of the file allrecipies and writes it in the file the_best
+
+
+Search
+------------------------------------
+1.) grep --after-context=8 "guacamole" salads.txt > avocado_love.txt
+looks for guacamole in the file salads.txt and writes the following 8 lines to the file avocado_love.txt
+
+
+
 
 
 

@@ -77,9 +77,12 @@ Ressource allocations and job settings use the #SBATCH specifier. Some useful se
 #SBATCH --ntasks=1                             <- requests one task
 #SBATCH --cpus-per-task=20                     <- requests 20 cpus for the one task
 
-SLURM does not only know nores and cores but also tasks
+SLURM does not only know nodes and cores but also tasks. 
+
+The queueing system can inform you by sending mails if something unexpected happens or if your job dies/finishes:
 
 #SBATCH --mail-user=username@my-university.com  <- set the mail address used for sending any messages from the queueing system
+#SBATCH --mail-type=FAIL                        <- only send mails if the job fails
 
 
 

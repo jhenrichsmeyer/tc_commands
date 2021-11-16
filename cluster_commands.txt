@@ -3,8 +3,11 @@
 # and Stefan Behnle                                                  # 
 ######################################################################
 
+Please find your own sensible structure for either different job schedulers that
+is understandable for both people in Tübingen and Edinburgh.
+
 ============================================================================
-=               Basic Commands for Computing on EDDIE (UoE)
+==              Basic Commands for Computing on EDDIE (UoE)               ==
 ============================================================================
 
 - you can access EDDIE with
@@ -23,8 +26,9 @@ this also displays the IDs of the jobs
 qdel <job ID>,
 where the job ID can be found via qstat
 
-Please find your own sensible structure for either different job schedulers that
-is understandable for both people in Tübingen and Edinburgh.
+- a submission script should start as follows:
+#!/bin/sh
+#$ -N <job name>
 
 ============================================================================
 =               BASIC CONSIDERATIONS WHEN YOU FIRST ENTER A CLUSTER      =     
@@ -37,10 +41,14 @@ is understandable for both people in Tübingen and Edinburgh.
 - Also be careful with the memory assignated to each job, an useful practice would be to read the cluster documentation before hand
 - In case some information is not in your university webpage, general instructions can be found in the webpages related to your specific queue system
 - If el barrilero is on your group, be careful, he is muuuuuuy estupido
+(Es el mas estupdio. Muchas!)
 - If you use EMACS, please leave science or consider a quick change to vi
 - Before running your brand new code in the cluster, please test it on your local machine (not in the login node) 
 - Remember to change the libraries for every run, if you do not source Tensorflow in your submitting script, you will not be able to use it later.  
+- If you are using a script some person in your group has written, please please please, change the email so he/she does not reseive an email every time you run something
+- ENJOY THE FUNNY AND WELL PAID JOB OF BEING A COMPUTATIONAL SCIENTIST!  
 MUCHAS!!!
+=======
 
 ==============================================================================
 ==                    THE  S L U R M  QUEUEING SYSTEM                       ==

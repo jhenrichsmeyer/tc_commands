@@ -26,9 +26,6 @@ is understandable for both people in Tübingen and Edinburgh.
 =               BASIC CONSIDERATIONS WHEN YOU FIRST ENTER A CLUSTER      =     
 ============================================================================
 
-
-
-
 - Before running jobs in any cluster, please bear in mind LOGIN NODES are not RUNNING NODES
 - Knowing the number of cores and nodes in your cluster is important before submitting your jobs
 - The time limit you put in your scripts will determine your position in the queue, do not put 24h to run H2

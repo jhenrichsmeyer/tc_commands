@@ -6,3 +6,38 @@
 
 Please find your own sensible structure for either different job schedulers that
 is understandable for both people in Tübingen and Edinburgh.
+
+
+
+
+
+==============================================================================
+==                    THE  S L U R M  QUEUEING SYSTEM                       ==
+==============================================================================
+
+The SLURM workload manager (https://www.schedmd.com/) is a free and open-source queueing system.
+
+The general documentation and tutorials are available from https://slurm.schedmd.com/
+For a quick overview see https://slurm.schedmd.com/quickstart.html
+
+The most important commands are
+
+* sbatch <name_of_job_script>
+
+  submits the job defined in <name_of_job_script> to the queue
+
+
+* squeue
+  
+  list the jobs in the queue
+
+
+* scancel <jobid>
+
+    deletes the job specified by <jobid>
+
+
+The job script has the following structure:
+
+
+

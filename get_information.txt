@@ -6,7 +6,7 @@ GETTING INFORMATION
 
 Finding files
 -----------------------------
-use find
+ use find
 
 Finding information in files
 -----------------------------

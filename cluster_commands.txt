@@ -3,9 +3,13 @@
 # and Stefan Behnle                                                  # 
 ######################################################################
 
-----------------------------------------------------------------------
-Commands for Computing on EDDIE
-----------------------------------------------------------------------
+============================================================================
+=               Basic Commands for Computing on EDDIE (UoE)
+============================================================================
+
+- you can access EDDIE with
+ssh <UUN>@eddie.ecdf.ed.ac.uk,
+where UUN is your University User Name
 
 - jobs can be submitted with
 qsub <script.sh>,
@@ -25,9 +29,6 @@ is understandable for both people in Tübingen and Edinburgh.
 ============================================================================
 =               BASIC CONSIDERATIONS WHEN YOU FIRST ENTER A CLUSTER      =     
 ============================================================================
-
-
-
 
 -Before running jobs in any cluster, please bear in mind LOGIN NODES are not RUNNING NODES
 - Knowing the number of cores and nodes in your cluster is important before submitting your jobs

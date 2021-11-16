@@ -11,7 +11,15 @@ Changes the current directory to the subdirectory "pasta"
 2.) cd ../
 changes the current directory to the parent directory (Level up)
 
+3.) cd ~
+changes current directory to your home directory 
 
+4.)ls ./
+list content of current directory. 
+Options are :
+-l list aoutput 
+-a (all) show hidden files 
+-h (human readable) show filesizes in MB kB etc.
 
 
 

@@ -1,6 +1,6 @@
 VI COMMANDS
 ######################################################################
-# main authors:                                                      #
+# main authors: Michael Thelen                                       #
 ######################################################################
 
 Explanation of editing and writing mode
@@ -9,10 +9,40 @@ Navigation within a file
 -----------------------------------
 
 
+General useful commands
+-----------------------------------
+:set number  show line numbers on the left side of the screen
+:set nowrap  do not wrap lines
+
 Modifying file in editing mode
 -----------------------------------
+You can modify a files using the Insert mode of vi. Once you are in Insert mode "--INSERT--" is visible in the console lower left corner.  
+Once you are in Insert mode you can add and delete text as you like.
+--
+:i  insert text before cursor 
+:I  insert text at the beginning of the thr current line 
+:A  append text to current line 
+:a  append text after cursor
+:O  open and put text in a new line above current line
+:o  open and put text in a new line below current line
+Esc get out of insertion mode 
 
+Replacing and deleting characters. 
+For this commands to work you need to exit insert mode using Esc.
+--
+u  undo what you just did 
+r  replace single character 
+R  replace charcters starting with character under cursor 
+x  delete current character 
+Nx delete N charcters starting with character under cursor
 
-
-
+Copy/paste 
+--
+yy  copy current line into buffer
+Nyy copy N lines icluding current line into buffer 
+p   paste buffer below current line
+P   paste buffer above current line
+dw  delete word 
+dd  delete (cut) current line 
+Ndd delete N lines below the (including the) current line
 

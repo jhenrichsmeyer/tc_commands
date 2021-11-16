@@ -1,6 +1,6 @@
 BASIC TERMINAL COMMANDS
 ######################################################################
-# main authors: Esra, Johannes                                       #
+# main authors: Esra, Johannes, Michael                              #
 ######################################################################
 
 Navigation

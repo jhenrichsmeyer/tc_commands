@@ -20,10 +20,8 @@ Options are :
 -l list aoutput 
 -a (all) show hidden files 
 -h (human readable) show filesizes in MB kB etc.
-I
-am
-pieces
-of Creating folders, moving files, etc.
+
+Creating folders, moving files, etc.
 -------------------------------------------
 all 1.) mkdir cookbook
 the creates the directory cookbook
@@ -42,9 +40,8 @@ moves the file icecream.xyz to the directory favorites, which is in the parent d
 
 5.) sed -n '8,104983 p' allrecipies > the_best
 copies lines 8 - 104983 of the file allrecipies and writes it in the file the_best
-I
-have
-been Search
+
+Search
 ------------------------------------
 1.) grep --after-context=8 "guacamole" salads.txt > avocado_love.txt
 looks for guacamole in the file salads.txt and writes the following 8 lines to the file avocado_love.txt

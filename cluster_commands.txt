@@ -55,7 +55,21 @@ The most important commands are
     deletes the job specified by <jobid>
 
 
-The job script has the following structure:
+
+Ressource allocations and job settings use the #SBATCH specifier. Some useful settings are
+#SBATCH -J name_of_the_job                     <- this assigns the name "name_of_the_job" to the job
+#SBATCH --time=100:00:00                       <- requests a wall clock time limit of 100 hours
+#SBATCH --mem=30G                              <- requests a memory limit of 30 GiB for the job (per node)
+#SBATCH --nodes=1                              <- requests one node
+#SBATCH --ntasks=1                             <- requests one task
+#SBATCH --cpus-per-task=20                     <- requests 20 cpus for the one task
+
+SLURM does not only know nores and cores but also tasks
+
+#SBATCH --mail-user=username@my-university.com  <- set the mail address used for sending any messages from the queueing system
+
+
+
 
 
 

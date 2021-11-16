@@ -19,3 +19,11 @@ where the job ID can be found via qstat
 
 Please find your own sensible structure for either different job schedulers that
 is understandable for both people in Tübingen and Edinburgh.
+
+Ein Freund ist ein Mensch,
+der die Melodie deines Herzens kennt
+und sie dir vorspielt,
+wenn du sie vergessen hast.
+
+Please find your own sensible structure for either different job schedulers that
+is understandable for both people in Tübingen and Edinburgh.

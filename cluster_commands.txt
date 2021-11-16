@@ -3,12 +3,31 @@
 # and Stefan Behnle                                                  # 
 ######################################################################
 
+Commands for Computing on EDDIE
+
+- jobs can be submitted with
+qsub <script.sh>,
+where script.sh is a submission script
+
+- submitted or running jobs can be monitored with
+qstat;
+this also displays the IDs of the jobs
+
+- submitted or running jobs can be killed with
+qdel <job ID>,
+where the job ID can be found via qstat
 
 Please find your own sensible structure for either different job schedulers that
 is understandable for both people in Tübingen and Edinburgh.
 
 
 
+
+
+Before running jobs in any cluster, please bear in mind LOGIN NODES are not RUNNING NODES
+Also be careful with the memory assignated to each job, an useful practice would be to read the cluster documentation before hand
+In case some information is missed in your university webpage, general instructions can be found in the webpages related to your specific queue system
+If el barrilero is on your group, be careful, he is muuuuuuy estupido
 
 
 ==============================================================================

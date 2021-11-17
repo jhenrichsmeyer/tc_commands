@@ -1,11 +1,14 @@
 GETTING INFORMATION
 ######################################################################
 # main authors:                                                      #
+# Reinhold F. Fink ( RFF )
 ######################################################################
 
 Finding files
 -----------------------------
-
+use find as e.g.
+find . -name "*.f*"
+tries to find all files below "." 
 
 Finding information in files
 -----------------------------

@@ -53,14 +53,14 @@ module load python/3.4.3
 - Before running jobs in any cluster, please bear in mind LOGIN NODES are not RUNNING NODES
 - Knowing the number of cores and nodes in your cluster is important before submitting your jobs
 - The time limit you put in your scripts will determine your position in the queue, do not put 24h to run H2
-- Sometimes you will realize a job you just submitted has some error. It is a good practice to kill it before starting a new one. Having a list with your PID's also helps in that task if your user is shared
+- Sometimes you will realize a job you just submitted has some error. It is a good practice to kill it before starting a new one. Having a list with your PID's (Process Identifier) also helps in that task if your user is shared
 - Also be careful with the memory assignated to each job, an useful practice would be to read the cluster documentation before hand
 - In case some information is not in your university webpage, general instructions can be found in the webpages related to your specific queue system
 - If el barrilero is on your group, be careful, he is muuuuuuy estupido (although Elke and Andres do not agree on this!) 
-(Es el mas estupdio. Muchas!)
+(Es el mas estupido. Muchas!!)
 - If you use EMACS, please leave science or consider a quick change to vi
 - Before running your brand new code in the cluster, please test it on your local machine (not in the login node) 
-- Remember to change the libraries for every run, if you do not source Tensorflow in your submitting script, you will not be able to use it later.  
+- Remember to change the libraries for every run, if you do not source the libraries (for example Tensorflow)  in your submitting script, you will not be able to use it later.  
 - If you are using a script some person in your group has written, please please please, change the email so he/she does not reseive an email every time you run something
 - ENJOY THE FUNNY AND WELL PAID JOB OF BEING A COMPUTATIONAL SCIENTIST!  
 MUCHAS!!!

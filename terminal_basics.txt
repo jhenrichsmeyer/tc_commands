@@ -14,7 +14,7 @@ changes the current directory to the parent directory (Level up)
 3.) cd ~
 changes current directory to your home directory 
 
-4.)ls ./
+4.)ls .
 list content of current directory. 
 Options are :
 -l list aoutput 

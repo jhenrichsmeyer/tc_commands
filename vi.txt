@@ -32,7 +32,7 @@ For this commands to work you need to exit insert mode using Esc.
 --
 u  undo what you just did 
 r  replace single character 
-R  replace charcters starting with character under cursor 
+R  replace characters starting with character under cursor 
 x  delete current character 
 Nx delete N charcters starting with character under cursor
 

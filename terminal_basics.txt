@@ -8,7 +8,7 @@ Navigation
 1.) cd pasta
 Changes the current directory to the subdirectory "pasta"
 
-2.) cd ../
+2.) cd ..
 changes the current directory to the parent directory (Level up)
 
 3.) cd ~

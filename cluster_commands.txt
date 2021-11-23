@@ -28,23 +28,61 @@ where the job ID can be found via qstat
 
 - an examplary submission script that submits a calculation
 with a Python script named hello.py looks as follows:
+
 #!/bin/sh
-# Grid Engine options (lines prefixed with #$)
 #$ -N hello              
 #$ -cwd                  
 #$ -l h_rt=00:05:00 
 #$ -l h_vmem=1G
-#  These options are:
-#  job name: -N
-#  use the current working directory: -cwd
-#  runtime limit of 5 minutes: -l h_rt
-#  memory limit of 1 Gbyte: -l h_vmem
-# Initialise the environment modules
 . /etc/profile.d/modules.sh
-# Load Python
 module load python/3.4.3
-# Run the program
 ./hello.py
+
+The meaning of the lines in this is script is as follows:
+
+#!/bin/sh
+initialises the shell script;
+this should not be changed
+
+#$ - N hello
+specifies the name of the submitted calculation;
+here, the name is "hello";
+The name can be changed
+
+#$ -cwd
+defines that the current working directory is used;
+this should not be changed
+
+#$ -l h_rt=00:05:00 
+specifies the runtime limit of the calculation;
+here, the calculation is aborted after 5 minutes;
+the runtime limit should be changed to a reasonable time
+that allows the calculation to be finished
+(note that longer runtime limits could lead to longer
+waiting times in the queue)
+
+#$ -l h_vmem=1G
+specifies the memory limit of the calculation;
+here, the calculation can use up to 1 Gigabyte of memory at most;
+the memory limit can be changed to a larger value if required
+(better check the available hardware on the Eddie Wiki before)
+
+. /etc/profile.d/modules.sh
+initialises the environment modules;
+this should not be changed
+
+module load python/3.4.3
+loads the python module;
+if Python-3.4.3 is used, this should not be changed;
+if the code does not run in Python, this line can be removed
+(one might have to replace it with another command
+that sets the path to an installed programme)
+ 
+./hello.py
+runs the programme;
+the name must be changed to the actual name of the programme
+that is to be executed
+
 
 ============================================================================
 =               BASIC CONSIDERATIONS WHEN YOU FIRST ENTER A CLUSTER      =     

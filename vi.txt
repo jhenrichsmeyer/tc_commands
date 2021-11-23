@@ -12,7 +12,7 @@ Navigation within a file
 General useful commands
 -----------------------------------
 :set number  show line numbers on the left side of the screen
-:set nowrap  do not wrap lines
+:set nowrap  disable line break (word wrap)
 
 Modifying file in editing mode
 -----------------------------------

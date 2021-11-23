@@ -66,6 +66,12 @@ module load python/3.4.3
 MUCHAS!!!
 =======
 
+(*) There are several ways to find out the process ID (PID) of a rumming process:
+- htop has a column that lists the PID
+- top can show you the PID
+- ps shows you your processes and the related PID
+- graphical process managers/task managers also list PIDs
+
 ==============================================================================
 ==                    THE  S L U R M  QUEUEING SYSTEM                       ==
 ==============================================================================

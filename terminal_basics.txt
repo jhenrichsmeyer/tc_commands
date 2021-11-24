@@ -14,12 +14,12 @@ changes the current directory to the parent directory (Level up)
 3.) cd ~
 changes current directory to your home directory 
 
-4.)ls .
+4.)ls
 list content of current directory. 
 Options are :
--l list aoutput 
--a (all) show hidden files 
--h (human readable) show filesizes in MB kB etc.
+ls -l list output 
+ls -a (all) show hidden files 
+ls -h (human readable) show filesizes in MB kB etc.
 
 Creating folders, moving files, etc.
 -------------------------------------------

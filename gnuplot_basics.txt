@@ -1,0 +1,54 @@
+BASIC GNUPLOT COMMANDS
+######################################################################
+# main authors: Gurli, Stefan                                        #
+######################################################################
+
+Gnuplot is a versatile command-line plotting program.
+It can be used both interactively and with plot scripts.
+The most simple usage is to open gnuplot in a shell and use it interactively.
+For opening gnuplot, type 'gnuplot' in a shell. This will open GNUPlots built-in shell and set a so-called "terminal:
+ > behnle@south:~$ gnuplot 
+ >
+ >        G N U P L O T
+ >        Version 5.2 patchlevel 2    last modified 2017-11-15 
+ >
+ >        Copyright (C) 1986-1993, 1998, 2004, 2007-2017
+ >        Thomas Williams, Colin Kelley and many others
+ >
+ >        gnuplot home:     http://www.gnuplot.info
+ >        faq, bugs, etc:   type "help FAQ"
+ >        immediate help:   type "help"  (plot window: hit 'h')
+ >
+ > Terminal type is now 'qt'
+ > gnuplot>
+
+The terminal is the "output channel" where the plot is written to, in this case a window based on the Qt-framework. The terminal can also be a file, e.g. a .pdf file
+
+Plotting functions is easy. If you want to plot a parabola, just enter (do NOT type  "gnuplot>", this is gnuplot's internal shell")
+ > gnuplot> plot x**2
+This should open a new plot window with the desiredd parabola.
+
+Plotting data from files is also easy: Columns in files can be referenced by their column numbers. Supposed, we have a file 
+#xdata  ydata
+1        5
+2       10  
+4        5
+5        7
+8       10
+10       7
+
+containing a data series consisting of x and y data. We can plot the y against the x data with the command
+> gnuplot> plot './data.dat' using 1:2 with linespoints
+(or in shorthand notation "plot './data.dat' u 1:2 w lp")
+Column 1 is used as x data, column 2 is used as y data.
+The option "with linespoints" tells GNUPlot to draw data points and connect these with lines
+
+3D plotting is done with the command "splot" which requires data triples (x/y/z value), i.e. either a function of x and y or three columns from a file.
+
+
+GNUPlot has a powerful built-in help. Type "help" for opening the general help or "help <option> for help on some subtopic.
+The help view can be closed by pressing "q", the subtopic selection can be closed by pressing enter.
+
+
+When you are done, GNUplot can be closed with the command "quit" (or the respective shortcut "q")
+

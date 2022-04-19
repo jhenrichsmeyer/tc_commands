@@ -3,6 +3,30 @@ VI COMMANDS
 # main authors: Michael Thelen                                       #
 ######################################################################
 
+File opening
+-----------------------------------
+Opening a file with vi is simple:
+Just add the name of the file(s) to edit as command line parameter:
+vi <file1> <file2> <file3>
+
+if you call vi without file name argument, it will create a new empty text file
+
+Writing/closing files
+----------------------------------
+For writing and closing files, you need to open vi's built-in command line by entering a ":", then type the command you want to execute:
+  ":x"         shortcut for " write, then close"
+  ":w"         just write the file but don't close it"
+  ":w <name>   write the current content to a (new) file called <name>
+  ":q"         quit vi, i.e. close the file.
+  ":q!"        close witout saving
+
+Reading content
+------------------------------------
+Additional content from another file may be inserted by
+":r <name of another file> "
+at the currrent cursor postion
+
+
 Explanation of editing and writing mode
 
 Navigation within a file

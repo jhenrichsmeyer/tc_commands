@@ -24,10 +24,7 @@ ls -lh (human readable) show filesizes in MB kB etc.
 5.) pwd
 tells you your current directory
 
-6.) <tab>
-completes a directory or file name
-
-7.) man pwd
+6.) man pwd
 man <any command> shows the manual of the command
 
 Creating folders, moving files, etc.

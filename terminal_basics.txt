@@ -24,8 +24,8 @@ changes the current directory to the parent directory (Level up)
 changes current directory to your home directory 
 
 Tip: use TAB-key for auto-completion and double TAB for suggestion of all available options
-Creating folders, moving files, etc.
 
+Creating folders, moving files, etc.
 -------------------------------------------
 1.) mkdir cookbook
 creates the directory cookbook

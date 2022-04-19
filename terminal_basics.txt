@@ -11,7 +11,7 @@ Changes the current directory to the subdirectory "pasta"
 2.) cd ..
 changes the current directory to the parent directory (Level up)
 
-3.) cd ~
+3.) cd ~ (alternatively cd)
 changes current directory to your home directory 
 
 4.)ls

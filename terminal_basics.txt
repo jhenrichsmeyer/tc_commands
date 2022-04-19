@@ -41,14 +41,14 @@ creates the subdirectories 25, 26, 27, ..., 45
 2.) touch icecream.xyz
 creates the file icecream.xyz in the current directory
 
-3.) cp icecream.xyz ../favorites/icecream.xyz
-copies the file icecream.xyz to the directory favorites, which is in the parent directory
+3.) cp icecream.xyz path/to/dir/filename
+copies the file icecream.xyz to directory dir naming it filename
 
 cp -r favorites old_favorites
 copies the directory favorites to new directory old_favorites
 
-4.) mv icecream.xyz ../favorites/icecream.xyz
-moves the file icecream.xyz to the directory favorites, which is in the parent directory
+4.) mv icecream.xyz path/to/dir/icecream.xyz
+moves the file icecream.xyz to the directory path/to/dir
 
 5.) sed -n '8,104983 p' allrecipies > the_best
 copies lines 8 - 104983 of the already existing

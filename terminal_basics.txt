@@ -2,6 +2,7 @@ BASIC TERMINAL COMMANDS
 ######################################################################
 # main authors: Esra, Johannes, Michael                              #
 ######################################################################
+All directory and filenames are examples that you have to replace.
 
 Navigation
 -------------------------------------------

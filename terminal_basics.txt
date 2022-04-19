@@ -2,26 +2,30 @@ BASIC TERMINAL COMMANDS
 ######################################################################
 # main authors: Esra, Johannes, Michael                              #
 ######################################################################
+Basic vocabulary:
+directory - folder
 
 Navigation
 -------------------------------------------
-1.) cd pasta
-Changes the current directory to the subdirectory "pasta"
-
-2.) cd ..
-changes the current directory to the parent directory (Level up)
-
-3.) cd ~
-changes current directory to your home directory 
-
-4.)ls
+1.)ls
 list content of current directory. 
 Options are :
 ls -l list output 
 ls -a (all) show hidden files 
-ls -h (human readable) show filesizes in MB kB etc.
+ls -h (human readable) show filesizes in MB kB etc
 
+2.) cd pasta
+Changes the current directory to the subdirectory "pasta"
+
+3.) cd ..
+changes the current directory to the parent directory (Level up)
+
+4.) cd ~
+changes current directory to your home directory 
+
+Tip: use TAB-key for auto-completion and double TAB for suggestion of all available options
 Creating folders, moving files, etc.
+
 -------------------------------------------
 1.) mkdir cookbook
 creates the directory cookbook
@@ -32,7 +36,10 @@ creates the subdirectories 25, 26, 27, ..., 45
 2.) touch icecream.xyz
 creates the file icecream.xyz in the current directory
 
-3.) cp icecream.xyz ../favorites/icecream.xyz
+3.)
+a) cp icecream.xyz icecream2.xyz
+copies the content of file icecream.xyz to the new file icecream2.xyz
+b) cp icecream.xyz ../favorites/icecream.xyz
 copies the file icecream.xyz to the directory favorites, which is in the parent directory
 
 4.) mv icecream.xyz ../favorites/icecream.xyz

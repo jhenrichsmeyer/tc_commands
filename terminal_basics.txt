@@ -47,6 +47,11 @@ Search
 looks for guacamole in the file salads.txt and writes the following 8 lines to the file avocado_love.txt
 
 
+Auto-completion of file names and commands
+-------------------------------------------
+File names and commands can be auto-completed or proposed by pressing the <Tab> Key ("TAB", ↹, above the caps-lock, below ^/°)
+If pressed once and there is only one possible completion then this will be inserted (if there is more than one possible completion, nothing happens).
+If pressed twice, a list of possible completions/available commands/files is shown.
 
 
 

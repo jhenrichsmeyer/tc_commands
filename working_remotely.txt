@@ -12,6 +12,8 @@ ssh obelix@baltic.uni-tuebingen.de
 
 will log in to the account named obelix on the node baltic 
 which is in the domain uni-tuebingen in Germany (de).
+ssh to baltic and (other machines) will only work from within
+the campus network.
 
 
 

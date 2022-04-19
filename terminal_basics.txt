@@ -2,6 +2,7 @@ BASIC TERMINAL COMMANDS
 ######################################################################
 # main authors: Esra, Johannes, Michael                              #
 ######################################################################
+All directory and filenames are examples that you have to replace.
 
 Navigation
 -------------------------------------------
@@ -11,15 +12,23 @@ Changes the current directory to the subdirectory "pasta"
 2.) cd ..
 changes the current directory to the parent directory (Level up)
 
-3.) cd ~
+3.) cd ~ (alternatively cd)
 changes current directory to your home directory 
 
-4.)ls ./
+4.)ls
 list content of current directory. 
 Options are :
--l list aoutput 
--a (all) show hidden files 
--h (human readable) show filesizes in MB kB etc.
+ls -l list output 
+ls -a (all) show hidden files 
+ls -lh (human readable) show filesizes in MB kB etc.
+
+5.) pwd
+tells you your current directory
+
+6.) man pwd
+man <any command> shows the manual of the command
+
+
 
 Creating folders, moving files, etc.
 -------------------------------------------
@@ -35,11 +44,26 @@ creates the file icecream.xyz in the current directory
 3.) cp icecream.xyz ../favorites/icecream.xyz
 copies the file icecream.xyz to the directory favorites, which is in the parent directory
 
+cp -r favorites old_favorites
+copies the directory favorites to new directory old_favorites
+
 4.) mv icecream.xyz ../favorites/icecream.xyz
 moves the file icecream.xyz to the directory favorites, which is in the parent directory
 
 5.) sed -n '8,104983 p' allrecipies > the_best
-copies lines 8 - 104983 of the file allrecipies and writes it in the file the_best
+copies lines 8 - 104983 of the already existing
+file allrecipies and writes it in the file the_best
+
+6.) rm filename
+remove file filename
+
+rmdir dirname
+remove empty directory dirname
+
+rm -r dirname
+remove directory dirname and all directories and files in it
+(-r means recursively)
+
 
 Search
 ------------------------------------
@@ -52,6 +76,7 @@ Auto-completion of file names and commands
 File names and commands can be auto-completed or proposed by pressing the <Tab> Key ("TAB", ↹, above the caps-lock, below ^/°)
 If pressed once and there is only one possible completion then this will be inserted (if there is more than one possible completion, nothing happens).
 If pressed twice, a list of possible completions/available commands/files is shown.
+
 
 
 

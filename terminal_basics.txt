@@ -2,25 +2,30 @@ BASIC TERMINAL COMMANDS
 ######################################################################
 # main authors: Esra, Johannes, Michael                              #
 ######################################################################
-All directory and filenames are examples that you have to replace.
+Basic vocabulary:
+directory - folder
+
+
+All directory and filenames are examples that you have to replace
+
 
 Navigation
 -------------------------------------------
-1.) cd pasta
-Changes the current directory to the subdirectory "pasta"
-
-2.) cd ..
-changes the current directory to the parent directory (Level up)
-
-3.) cd ~ (alternatively cd)
-changes current directory to your home directory 
-
-4.)ls
+1.)ls
 list content of current directory. 
 Options are :
 ls -l list output 
 ls -a (all) show hidden files 
-ls -lh (human readable) show filesizes in MB kB etc.
+ls -lh (human readable) show filesizes in MB kB etc
+
+2.) cd pasta
+Changes the current directory to the subdirectory "pasta"
+
+3.) cd ..
+changes the current directory to the parent directory (Level up)
+
+4.) cd
+changes current directory to your home directory 
 
 5.) pwd
 tells you your current directory
@@ -28,6 +33,12 @@ tells you your current directory
 6.) man pwd
 man <any command> shows the manual of the command
 
+
+Auto-completion of file names and commands
+-------------------------------------------
+File names and commands can be auto-completed or proposed by pressing the <Tab> Key ("TAB", ↹, above the caps-lock, below ^/°)
+If pressed once and there is only one possible completion then this will be inserted (if there is more than one possible completion, nothing happens).
+If pressed twice, a list of possible completions/available commands/files is shown.
 
 
 Creating folders, moving files, etc.
@@ -41,7 +52,10 @@ creates the subdirectories 25, 26, 27, ..., 45
 2.) touch icecream.xyz
 creates the file icecream.xyz in the current directory
 
-3.) cp icecream.xyz ../favorites/icecream.xyz
+3.)
+a) cp icecream.xyz icecream2.xyz
+copies the content of file icecream.xyz to the new file icecream2.xyz
+b) cp icecream.xyz ../favorites/icecream.xyz
 copies the file icecream.xyz to the directory favorites, which is in the parent directory
 
 cp -r favorites old_favorites
@@ -57,10 +71,10 @@ file allrecipies and writes it in the file the_best
 6.) rm filename
 remove file filename
 
-rmdir dirname
+7.) rmdir dirname
 remove empty directory dirname
 
-rm -r dirname
+8.) rm -r dirname
 remove directory dirname and all directories and files in it
 (-r means recursively)
 
@@ -71,11 +85,6 @@ Search
 looks for guacamole in the file salads.txt and writes the following 8 lines to the file avocado_love.txt
 
 
-Auto-completion of file names and commands
--------------------------------------------
-File names and commands can be auto-completed or proposed by pressing the <Tab> Key ("TAB", ↹, above the caps-lock, below ^/°)
-If pressed once and there is only one possible completion then this will be inserted (if there is more than one possible completion, nothing happens).
-If pressed twice, a list of possible completions/available commands/files is shown.
 
 
 

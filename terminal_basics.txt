@@ -44,11 +44,25 @@ creates the file icecream.xyz in the current directory
 3.) cp icecream.xyz ../favorites/icecream.xyz
 copies the file icecream.xyz to the directory favorites, which is in the parent directory
 
+cp -r favorites old_favorites
+copies the directory favorites to new directory old_favorites
+
 4.) mv icecream.xyz ../favorites/icecream.xyz
 moves the file icecream.xyz to the directory favorites, which is in the parent directory
 
 5.) sed -n '8,104983 p' allrecipies > the_best
 copies lines 8 - 104983 of the file allrecipies and writes it in the file the_best
+
+6.) rm filename
+remove file filename
+
+rmdir dirname
+remove empty directory dirname
+
+rm -r dirname
+remove directory dirname and all directories and files in it
+(-r means recursively)
+
 
 Search
 ------------------------------------

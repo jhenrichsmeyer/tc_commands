@@ -19,7 +19,7 @@ list content of current directory.
 Options are :
 ls -l list output 
 ls -a (all) show hidden files 
-ls -h (human readable) show filesizes in MB kB etc.
+ls -lh (human readable) show filesizes in MB kB etc.
 
 5.) pwd
 tells you your current directory

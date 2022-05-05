@@ -1,2 +1,7 @@
+CHEMISTRY SPECIFIC COMMANDS
+#####################################################################
+# main authors: Elke, Gurli                                         #
+#####################################################################
+
 Display molecular structures with:
 TmoleX

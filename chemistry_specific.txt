@@ -1,6 +1,6 @@
 CHEMISTRY SPECIFIC COMMANDS
 #####################################################################
-# main authors: Elke, Gurli                                         #
+# main authors: Gurli Schuster, Elke Fasshauer                      #
 #####################################################################
 
 Display molecular structures with:
